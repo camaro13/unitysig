@@ -16,6 +16,8 @@ public class Scene1_1_S : MonoBehaviour
     [SerializeField] public SpriteRenderer pic0;
     [SerializeField] public Sprite pic1;
     [SerializeField] public Sprite pic2;
+    [SerializeField] public SpriteRenderer basepic0;
+    [SerializeField] public Sprite basepic1;
     int i = 0;
     string garbage;
     // Start is called before the first frame update
