@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kitty3_0: 5220841041729411104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
