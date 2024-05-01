@@ -4,50 +4,45 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.IO;
+using UnityEngine.SceneManagement;
 
-public class Scene1_1_S : MonoBehaviour
+[System.Serializable]
+public class scene1_1_s
 {
+    public string name;
+    [TextArea]
+    public string dialogue;
+    public Sprite cg;
+}
+public class Scene1_1_s : MonoBehaviour
+{
+    [SerializeField] private SpriteRenderer sprite_StandingCG;
+    [SerializeField] public TMP_Text txt_Name;
+    [SerializeField] public TMP_Text txt_Dialogue;
 
-    
-    [SerializeField] public TMP_Text S_name;
-    [SerializeField] public TMP_Text S_Contents;
-    List<Dictionary<string, object>> data_Dialog;
+    private int count = 0;
 
-    [SerializeField] public SpriteRenderer pic0;
-    [SerializeField] public Sprite pic1;
-    [SerializeField] public Sprite pic2;
-    [SerializeField] public SpriteRenderer basepic0;
-    [SerializeField] public Sprite basepic1;
-    int i = 0;
-    string garbage;
+    [SerializeField] private scene1_1_s[] dialogue;
     // Start is called before the first frame update
     void Start()
     {
-        data_Dialog = CSVReader.Read("Dilog");
+        count = 0;
+        NextDialogue();
         
     }
 
-    public void Show_Text()
+    public void NextDialogue()
     {
-        StreamReader reader = new StreamReader(Application.persistentDataPath + "/save.txt");
-        
-        if ((string)data_Dialog[i]["Name"] == "none")
+        if (count < dialogue.Length)
         {
-            S_name.text = reader.ReadLine();
-            pic0.sprite = pic1;
+            txt_Name.text = dialogue[count].name;
+            txt_Dialogue.text = dialogue[count].dialogue;
+            sprite_StandingCG.sprite = dialogue[count].cg;
+            count++;
         }
-        else if ((string)data_Dialog[i]["Name"] != "none")
+        else
         {
-            S_name.text = (string)data_Dialog[i]["Name"];
-            pic0.sprite = pic2;
+            SceneManager.LoadScene(0);
         }
-        S_Contents.text = data_Dialog[i]["Content"].ToString();
-        i++;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
