@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/MainMenu/MainMenu.unity
+    path: Assets/Scenes/0_MainMenu/MainMenu.unity
     guid: 01539274c1b976f4cb09a661c84bfbf7
   - enabled: 1
-    path: Assets/InfoMenu/InfoMenu.unity
+    path: Assets/Scenes/1_InfoMenu/InfoMenu.unity
     guid: c6babc92c519a9240a426f0a18b1ac13
   - enabled: 1
-    path: Assets/1-1/1-1.unity
+    path: Assets/Scenes/3_1-1/1-1.unity
     guid: d22f458d8bb17a44fad284e064c806d3
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1d703748ff658f3409446496140c9b0a, type: 2}
