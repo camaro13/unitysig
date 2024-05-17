@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3_February/2_17/217_1/S_217_1.unity
     guid: d22f458d8bb17a44fad284e064c806d3
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_17/217_2_Dormitory/S_217_2_Dormitory.unity
+    guid: b26ce8eb30b4e194cbac8c0ba60d5182
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_17/217_3/S_217_3.unity
+    guid: a52e61295f281c54f9cf68bc6135ccbc
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_19/219_1/S_219_1.unity
+    guid: 09fb91fa24d1e2f4fbedda40f35f0546
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1d703748ff658f3409446496140c9b0a, type: 2}
   m_UseUCBPForAssetBundles: 0

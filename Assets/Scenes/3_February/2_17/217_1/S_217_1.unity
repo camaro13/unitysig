@@ -505,7 +505,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 514959161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07dfd613c7ab0a34b8c1162da90cb50b, type: 3}
+  m_Script: {fileID: 11500000, guid: e70ce1f474efcce4cb1b6a858192cf6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_StandingCG: {fileID: 677661805}
@@ -513,12 +513,18 @@ MonoBehaviour:
   txt_Dialogue: {fileID: 1396447984}
   dialogue:
   - name: me
-    dialogue: "\uC548\uB155"
-    cg_M: {fileID: -4662947928354370821, guid: 2e2397e17a960414f958202b7533eabf, type: 3}
+    dialogue: "\uC5EC\uAE30\uAC00 \uB300\uAD6C\uB300\uD559\uAD50 \uAE30\uC219\uC0AC
+      \uBC29\uC774\uAD6C\uB098! "
+    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: me
-    dialogue: "\uBC18\uAC00\uC6CC"
-    cg_M: {fileID: -4662947928354370821, guid: 2e2397e17a960414f958202b7533eabf, type: 3}
+    dialogue: "(\uB8F8\uBA54 \uC2E0\uCCAD \uC548\uD588\uB294\uB370 \uB204\uAD70\uC9C0
+      \uAD81\uAE08\uD558\uB2E4. \uC544\uC9C1 \uC548 \uC654\uB098..? ) "
+    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
+    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
+  - name: me
+    dialogue: "\uC77C\uB2E8 \uC9D0\uBD80\uD130 \uCC3E\uC73C\uB7EC \uAC00\uC790. "
+    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
 --- !u!1 &677661804
 GameObject:
@@ -580,12 +586,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
+  m_Sprite: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 9.54, y: 14.33}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -599,9 +605,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677661804}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.01745245, w: 0.99984777}
+  m_LocalRotation: {x: -0, y: -0, z: -0.01745245, w: 0.99984777}
   m_LocalPosition: {x: 1450, y: 598, z: 0}
-  m_LocalScale: {x: 35.537525, y: 35.537525, z: 35.537525}
+  m_LocalScale: {x: 35.537533, y: 35.537533, z: 35.537525}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -689,7 +695,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 514959165}
-        m_TargetAssemblyTypeName: Scene1_1_s, Assembly-CSharp
+        m_TargetAssemblyTypeName: S_219_1, Assembly-CSharp
         m_MethodName: NextDialogue
         m_Mode: 1
         m_Arguments:
@@ -920,7 +926,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
