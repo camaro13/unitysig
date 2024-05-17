@@ -512,18 +512,14 @@ MonoBehaviour:
   txt_Name: {fileID: 1805276797}
   txt_Dialogue: {fileID: 1396447984}
   dialogue:
-  - name_M: 
-    dialogue_M: 
-    cg_M: {fileID: 0}
-    name_F: 
-    dialogue_F: 
-    cg_F: {fileID: 0}
-  - name_M: 
-    dialogue_M: 
-    cg_M: {fileID: 0}
-    name_F: 
-    dialogue_F: 
-    cg_F: {fileID: 0}
+  - name: me
+    dialogue: "\uC548\uB155"
+    cg_M: {fileID: -4662947928354370821, guid: 2e2397e17a960414f958202b7533eabf, type: 3}
+    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
+  - name: me
+    dialogue: "\uBC18\uAC00\uC6CC"
+    cg_M: {fileID: -4662947928354370821, guid: 2e2397e17a960414f958202b7533eabf, type: 3}
+    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
 --- !u!1 &677661804
 GameObject:
   m_ObjectHideFlags: 0
