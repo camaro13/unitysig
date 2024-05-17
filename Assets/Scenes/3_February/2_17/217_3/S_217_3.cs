@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.IO;
 using UnityEngine.SceneManagement;
+using System;
 
 [System.Serializable]
 public class s_217_3
@@ -12,7 +13,8 @@ public class s_217_3
     public string name;
     [TextArea]
     public string dialogue;
-    public Sprite cg;
+    public Sprite cg_M;
+    public Sprite cg_F;
 }
 public class S_217_3 : MonoBehaviour
 {
@@ -22,12 +24,21 @@ public class S_217_3 : MonoBehaviour
 
     private string savePath;
     private int count = 0;
+    private bool isman;
+    private bool iswoman;
+    private string gabage;
+    private InfoMenu_S info;
 
     [SerializeField] private s_217_3[] dialogue;
     // Start is called before the first frame update
     void Start()
     {
         savePath = Application.persistentDataPath + "/save.txt";
+        StreamReader sr = new StreamReader(savePath);
+        gabage = sr.ReadLine();
+        gabage = sr.ReadLine();
+        isman = Convert.ToBoolean(sr.ReadLine());
+        iswoman = Convert.ToBoolean(sr.ReadLine());
         count = 0;
         NextDialogue();
         
@@ -47,12 +58,19 @@ public class S_217_3 : MonoBehaviour
                 txt_Name.text = dialogue[count].name;
             }
             txt_Dialogue.text = dialogue[count].dialogue;
-            sprite_StandingCG.sprite = dialogue[count].cg;
+            if (isman)
+            {
+                sprite_StandingCG.sprite = dialogue[count].cg_M;
+            }
+            else if (iswoman)
+            {
+                sprite_StandingCG.sprite = dialogue[count].cg_F;
+            }
             count++;
         }
         else
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(5);
         }
     }
 }
