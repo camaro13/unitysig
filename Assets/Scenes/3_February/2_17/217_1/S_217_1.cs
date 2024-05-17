@@ -7,14 +7,14 @@ using System.IO;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
-public class scene1_1_s
+public class s_217_1
 {
     public string name;
     [TextArea]
     public string dialogue;
     public Sprite cg;
 }
-public class Scene1_1_s : MonoBehaviour
+public class S_217_1 : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer sprite_StandingCG;
     [SerializeField] public TMP_Text txt_Name;
@@ -23,7 +23,7 @@ public class Scene1_1_s : MonoBehaviour
     private string savePath;
     private int count = 0;
 
-    [SerializeField] private scene1_1_s[] dialogue;
+    [SerializeField] private s_217_1[] dialogue;
     // Start is called before the first frame update
     void Start()
     {
