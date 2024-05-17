@@ -9,10 +9,15 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class s_217_1
 {
-    public string name;
+    public string name_M;
     [TextArea]
-    public string dialogue;
-    public Sprite cg;
+    public string dialogue_M;
+    public Sprite cg_M;
+
+    public string name_F;
+    [TextArea]
+    public string dialogue_F;
+    public Sprite cg_F;
 }
 public class S_217_1 : MonoBehaviour
 {
@@ -22,6 +27,7 @@ public class S_217_1 : MonoBehaviour
 
     private string savePath;
     private int count = 0;
+    private InfoMenu_S info;
 
     [SerializeField] private s_217_1[] dialogue;
     // Start is called before the first frame update
@@ -35,24 +41,49 @@ public class S_217_1 : MonoBehaviour
 
     public void NextDialogue()
     {
-        if (count < dialogue.Length)
+        if (info.toggle_gender_man == true)
         {
-            if (dialogue[count].name == "me")
+            if (count < dialogue.Length)
             {
-                StreamReader sr = new StreamReader(savePath);
-                txt_Name.text = sr.ReadLine();
+                if (dialogue[count].name_M == "me")
+                {
+                    StreamReader sr = new StreamReader(savePath);
+                    txt_Name.text = sr.ReadLine();
+                }
+                else
+                {
+                    txt_Name.text = dialogue[count].name_M;
+                }
+                txt_Dialogue.text = dialogue[count].dialogue_M;
+                sprite_StandingCG.sprite = dialogue[count].cg_M;
+                count++;
             }
             else
             {
-                txt_Name.text = dialogue[count].name;
+                SceneManager.LoadScene(0);
             }
-            txt_Dialogue.text = dialogue[count].dialogue;
-            sprite_StandingCG.sprite = dialogue[count].cg;
-            count++;
         }
-        else
+        else if (info.toggle_gender_woman == true)
         {
-            SceneManager.LoadScene(0);
+            if (count < dialogue.Length)
+            {
+                if (dialogue[count].name_F == "me")
+                {
+                    StreamReader sr = new StreamReader(savePath);
+                    txt_Name.text = sr.ReadLine();
+                }
+                else
+                {
+                    txt_Name.text = dialogue[count].name_F;
+                }
+                txt_Dialogue.text = dialogue[count].dialogue_F;
+                sprite_StandingCG.sprite = dialogue[count].cg_F;
+                count++;
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
         }
     }
 }
