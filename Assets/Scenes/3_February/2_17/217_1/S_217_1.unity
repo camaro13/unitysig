@@ -505,7 +505,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 514959161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e70ce1f474efcce4cb1b6a858192cf6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 07dfd613c7ab0a34b8c1162da90cb50b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_StandingCG: {fileID: 677661805}
@@ -513,17 +513,18 @@ MonoBehaviour:
   txt_Dialogue: {fileID: 1396447984}
   dialogue:
   - name: me
-    dialogue: "\uC5EC\uAE30\uAC00 \uB300\uAD6C\uB300\uD559\uAD50 \uAE30\uC219\uC0AC
-      \uBC29\uC774\uAD6C\uB098! "
+    dialogue: "\uC624\uB298 \uD569\uACA9 \uD1B5\uC9C0\uC11C \uB098\uC624\uB294 \uB0A0\uC774\uB2E4.
+      \uD734\uB300\uD3F0\uC744 \uD655\uC778\uD574\uBCF4\uC790."
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
+  - name: 
+    dialogue: "[\uD569\uACA9\uD1B5\uC9C0\uC11C] \uB300\uAD6C\uB300\uD559\uAD50 \uD569\uACA9\uC744
+      \uCD95\uD558\uB4DC\uB9BD\uB2C8\uB2E4. "
+    cg_M: {fileID: 0}
+    cg_F: {fileID: 0}
   - name: me
-    dialogue: "(\uB8F8\uBA54 \uC2E0\uCCAD \uC548\uD588\uB294\uB370 \uB204\uAD70\uC9C0
-      \uAD81\uAE08\uD558\uB2E4. \uC544\uC9C1 \uC548 \uC654\uB098..? ) "
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: me
-    dialogue: "\uC77C\uB2E8 \uC9D0\uBD80\uD130 \uCC3E\uC73C\uB7EC \uAC00\uC790. "
+    dialogue: "\uC6B0\uC640 \uB300\uAD6C\uB300\uC5D0 \uD569\uACA9\uD588\uC5B4! \uC774\uC81C
+      \uAE30\uC219\uC0AC \uC2E0\uCCAD\uC744 \uD574\uBCFC\uAE4C?"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
 --- !u!1 &677661804
@@ -695,7 +696,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 514959165}
-        m_TargetAssemblyTypeName: S_219_1, Assembly-CSharp
+        m_TargetAssemblyTypeName: S_217_1, Assembly-CSharp
         m_MethodName: NextDialogue
         m_Mode: 1
         m_Arguments:
