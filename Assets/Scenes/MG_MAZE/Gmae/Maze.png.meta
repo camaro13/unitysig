@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ee1badabf6f550d4fbf2bcf63fd45c48
+guid: 4dcb618bfeaaef947b52e7659bd2478b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3574571842542182633
-    second: "\uD5A5\uD1A0_0"
+      213: -6549960491094577852
+    second: Maze_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uD5A5\uD1A0_0"
+      name: Maze_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4032
-        height: 3024
+        width: 987
+        height: 864
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71fd82d19d1946ec0800000000000000
-      internalID: -3574571842542182633
+      spriteID: 44de673f2add915a0800000000000000
+      internalID: -6549960491094577852
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 27caebe434666e0448a34a965891b928
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\uD5A5\uD1A0_0": -3574571842542182633
+      Maze_0: -6549960491094577852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

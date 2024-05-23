@@ -15,6 +15,7 @@ public class InfoMenu_S : MonoBehaviour
     [SerializeField] public Toggle toggle_gender_man;
     [SerializeField] public Toggle toggle_gender_woman;
     private string savePath;
+    public static int C_score = 50;
     public static bool toggle_gender_man_B;
     public static bool toggle_gender_woman_B;
 

@@ -4,10 +4,13 @@ using System.Numerics;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ChaPlayer : MonoBehaviour
 {
+    public InfoMenu_S InfoMenu_S;
+
     private Rigidbody2D rb;
     private bool moveLeft = false;
     private bool moveRight = false;
@@ -15,11 +18,19 @@ public class ChaPlayer : MonoBehaviour
     public float speed = 5;
     public int score = 0;
     public TMP_Text ScoreTXT;
+    public TMP_Text timeText;
+    private float time;
+    public SpriteRenderer playerSpriteRenderer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         ScoreTXT.text = "Score : 0";
+    }
+
+    private void Awake()
+    {
+        time = 30f;
     }
 
     public void LeftBtnDown()
@@ -44,7 +55,25 @@ public class ChaPlayer : MonoBehaviour
     void Update()
     {
         MovePlayer();
-        
+        if (time > 0)
+        {
+            time -= Time.deltaTime;
+        }
+        else
+        {
+            SceneManager.LoadScene(0);
+            if (score > 5)
+            {
+                InfoMenu_S.C_score += 5;
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+                InfoMenu_S.C_score -= 5;
+                SceneManager.LoadScene(0);
+            }
+        }
+        timeText.text = Mathf.Ceil(time).ToString();
     }
 
     public void MovePlayer()
@@ -52,10 +81,12 @@ public class ChaPlayer : MonoBehaviour
         if (moveLeft)
         {
             sideMove = -speed;
+            playerSpriteRenderer.flipX = false;
         }
         else if (moveRight)
         {
             sideMove = speed;
+            playerSpriteRenderer.flipX = true;
         }
         else
         {
