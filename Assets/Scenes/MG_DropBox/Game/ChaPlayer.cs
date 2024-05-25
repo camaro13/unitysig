@@ -5,7 +5,6 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ChaPlayer : MonoBehaviour
 {
@@ -30,7 +29,8 @@ public class ChaPlayer : MonoBehaviour
 
     private void Awake()
     {
-        time = 30f;
+        time = 45f; 
+        Application.targetFrameRate = 60;
     }
 
     public void LeftBtnDown()
@@ -62,15 +62,15 @@ public class ChaPlayer : MonoBehaviour
         else
         {
             SceneManager.LoadScene(0);
-            if (score > 5)
+            if (score > 15)
             {
                 InfoMenu_S.C_score += 5;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(0);//성공
             }
             else
             {
                 InfoMenu_S.C_score -= 5;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(0);//실패
             }
         }
         timeText.text = Mathf.Ceil(time).ToString();

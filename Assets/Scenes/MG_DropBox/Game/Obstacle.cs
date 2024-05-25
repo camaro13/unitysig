@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public float time = 1.0f;
+    public float time = 0.7f;
     public GameObject Obstacles;
     public GameObject Boxes;
     // Start is called before the first frame update
@@ -16,8 +16,10 @@ public class Obstacle : MonoBehaviour
 
     void Falling()
     {
-        Instantiate(Obstacles, new Vector3(Random.Range(0, 1900), 1100, 0), Quaternion.identity);
-        Instantiate(Boxes, new Vector3(Random.Range(0, 1900), 1100, 0), Quaternion.identity);
+        Instantiate(Obstacles, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
+        Instantiate(Boxes, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
+        Instantiate(Obstacles, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
+        Instantiate(Boxes, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
     }
 
     

@@ -191,7 +191,7 @@ Transform:
   m_GameObject: {fileID: 467545504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 961, y: 40, z: 0.48334053}
+  m_LocalPosition: {x: 961, y: -56.3, z: 0.48334053}
   m_LocalScale: {x: 1982.7615, y: 113.77908, z: 85.871}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,8 +303,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 1
-  Obstacles: {fileID: 7954653879502123583, guid: 5ac83b3bddae4954db41b8b61de915ca, type: 3}
-  Boxes: {fileID: 3334007748186102631, guid: bfbc2e95aed3ee9488a2a04050cac0dd, type: 3}
+  Obstacles: {fileID: 4849398981163646191, guid: f795ccab707687b489c7e627c181b652, type: 3}
+  Boxes: {fileID: 4356761197901540082, guid: d9fb809d0a9ccc8429275c7411f908d6, type: 3}
 --- !u!1 &1093534925
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,14 +897,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5990566, g: 0.754979, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 546670755442798032, guid: 4afdca4c12ae88d47a3266468222b4a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1414,7 +1414,7 @@ Transform:
   m_GameObject: {fileID: 2052262323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 939, y: 197, z: 0.19409}
+  m_LocalPosition: {x: 939, y: 103, z: 0.19409}
   m_LocalScale: {x: 21.07122, y: 20.400604, z: 31.33733}
   m_ConstrainProportionsScale: 1
   m_Children: []

@@ -32,6 +32,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MG_DropBox/Game/MG_DropBox.unity
     guid: 7b66ac10600ed594fadca035ad196941
+  - enabled: 1
+    path: Assets/Scenes/MG_MAZE/Gmae/MG_MAZE.unity
+    guid: 6d30d96e6ed597b468a8ad2bcb47866a
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ca166d7a845f47248952623fc4db1ee3, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6169ac19db3557a438aed3e2b2cb4ecc, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1d703748ff658f3409446496140c9b0a, type: 2}
   m_UseUCBPForAssetBundles: 0
