@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour
 {
     public InfoMenu_S InfoMenu_S;
+    public MainMenu_s MainMenu_s;
 
     private Rigidbody2D rb;
     private bool moveLeft = false;
@@ -23,11 +24,12 @@ public class Character : MonoBehaviour
     void Start()
     {
         //rb = GetComponent<Rigidbody2D>();
+        MainMenu_s.scenenumber++;
     }
 
     private void Awake()
     {
-        time = 150f;
+        time = 50f;
         Application.targetFrameRate = 60;
     }
 
@@ -74,7 +76,8 @@ public class Character : MonoBehaviour
         else if (time < 0)//½ÇÆÐ
         {
             InfoMenu_S.C_score -= 5;
-            SceneManager.LoadScene(0);
+            MainMenu_s.scenenumber++;
+            SceneManager.LoadScene(MainMenu_s.scenenumber);
         }
         timeText.text = Mathf.Ceil(time).ToString();
     }
@@ -116,7 +119,7 @@ public class Character : MonoBehaviour
             if (exit_S == 3)
             {
                 InfoMenu_S.C_score += 5;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(MainMenu_s.scenenumber);
             }
             Destroy(gameObject);
             
