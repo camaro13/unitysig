@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4884772650086931124, guid: 1bb6fc589d814e049b28e4d4885cc5f0, type: 3}
+  m_Sprite: {fileID: -447571129883118505, guid: 4839f1b38792cb249bec538fc453ab11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -505,47 +505,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 514959161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e0ca91202b0e7348ad904d84273a2e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 11bbcb0188092b7409cfce32a48d163d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_StandingCG: {fileID: 677661805}
   txt_Name: {fileID: 1805276797}
   txt_Dialogue: {fileID: 1396447984}
   dialogue:
+  - name: "\uC120\uBC30"
+    dialogue: "\uC5EC\uAE30\uC11C \uBC84\uC2A4\uD0B9\uD558\uB098\uBD10\uC694!"
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
-    dialogue: "\uACF5\uC5F0 \uB108\uBB34 \uC7AC\uBC0C\uC5C8\uC5B4\uC694!"
+    dialogue: "\uC5F0\uC608\uC778\uC774\uC5D0\uC694?"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: "\uC120\uBC30"
-    dialogue: "\uC544 \uC9C4\uC9DC\uC694? \uC7AC\uBC0C\uC5C8\uB2E4\uB2C8 \uB2E4\uD589\uC774\uB124\uC694.  "
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    dialogue: "\uC544 \uC5F0\uC608\uC778\uC740 \uC544\uB2C8\uACE0 \uD559\uAD50 \uB3D9\uC544\uB9AC\uC5D0\uC11C
+      \uD558\uB294 \uAC70\uC608\uC694! "
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
-    dialogue: "\uC544 \uADFC\uB370 \uBC24 \uB418\uB2C8\uAE4C \uC880 \uCD94\uC6B4
-      \uAC70 \uAC19\uC9C0 \uC54A\uC544\uC694"
+    dialogue: "\uC640!! \uB2E4\uB4E4 \uC798\uD558\uC2DC\uB124\uC694."
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: "\uC120\uBC30"
-    dialogue: "\uCD94\uC6CC\uC694? \uC74C.. "
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
   - name: 
-    dialogue: "(\uBD80\uC2DC\uB7ED \uD6A8\uACFC\uC74C)"
+    dialogue: "(\uC120\uBC30\uC640 \uACF5\uC5F0\uC744 \uC990\uACBC\uB2E4.)"
     cg_M: {fileID: 0}
     cg_F: {fileID: 0}
-  - name: "\uC120\uBC30"
-    dialogue: "\uADF8\uB7FC \uC774\uAC70 \uC785\uACE0 \uC788\uC5B4\uC694. \u314E\u314E"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
-  - name: me
-    dialogue: "\uC5C7.. \uAC10\uC0AC\uD569\uB2C8\uB2E4. (\uB450\uADFC\uB450\uADFC)"
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: me
-    dialogue: " (\uB098\uB97C \uC704\uD574\uC11C \uC637\uC744 \uBC97\uC5B4\uC8FC\uB2E4\uB2C8..
-      \uC124\uB808\uB294\uB370?)"
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
 --- !u!1 &677661804
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +702,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 514959165}
-        m_TargetAssemblyTypeName: S_405_3, Assembly-CSharp
+        m_TargetAssemblyTypeName: S_405_2, Assembly-CSharp
         m_MethodName: NextDialogue
         m_Mode: 1
         m_Arguments:

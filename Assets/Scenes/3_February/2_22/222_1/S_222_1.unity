@@ -521,8 +521,8 @@ MonoBehaviour:
     dialogue: " \uC2E0\uC785\uC0DD \uC5EC\uB7EC\uBD84 \uC9C0\uAE08\uBD80\uD130 \uC218\uAC15\uC2E0\uCCAD\uC744
       \uD558\uACA0\uC2B5\uB2C8\uB2E4!\n\uC9C0\uC2DC\uC0AC\uD56D\uC5D0 \uB9DE\uCDB0\uC11C
       \uC798 \uB530\uB77C\uC640 \uC8FC\uC138\uC694!"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -4640275436308055520, guid: e73085a325af29542960c7294c3ee73a, type: 3}
+    cg_F: {fileID: -4640275436308055520, guid: e73085a325af29542960c7294c3ee73a, type: 3}
 --- !u!1 &677661804
 GameObject:
   m_ObjectHideFlags: 0

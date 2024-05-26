@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4884772650086931124, guid: 1bb6fc589d814e049b28e4d4885cc5f0, type: 3}
+  m_Sprite: {fileID: -447571129883118505, guid: 4839f1b38792cb249bec538fc453ab11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -522,8 +522,8 @@ MonoBehaviour:
     dialogue: "\uC624\uC168\uB124\uC694! \uC5EC\uAE30 \uC0AC\uB78C\uB4E4\uC774 \uAD49\uC7A5\uD788
       \uB9CE\uC8E0?? \uC544\uB9C8 \uC2E0\uC785\uC0DD\uC774\uB77C \uCCAB \uCD95\uC81C\uC77C\uD150\uB370!
       \uAC19\uC774 \uC7AC\uBC0C\uAC8C \uC990\uACA8\uBD10\uC694 \u314E\u314E"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uB124..!! (\uB5A8\uB9B0\uB2E4..)"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
@@ -531,8 +531,8 @@ MonoBehaviour:
   - name: "\uC120\uBC30"
     dialogue: "\uC624 \uC5EC\uAE30 \uBC9A\uAF43 \uB418\uAC8C \uC608\uC058\uAC8C \uD3C8\uB2E4!
       \uCD95\uC81C \uC628 \uAE30\uB150\uC73C\uB85C \uAC19\uC774 \uC0AC\uC9C4 \uCC0D\uC744\uAE4C\uC694?"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uADF8\uB7F4\uAE4C\uC694? \uADF8\uB7FC.. \uC81C \uD3F0\uC73C\uB85C
       \uCC0D\uC744\uAC8C\uC694! \uC790.. \uD558\uB098,\uB458,"
@@ -550,8 +550,8 @@ MonoBehaviour:
     dialogue: "\uC557.. \uBBF8\uC548\uD574\uC694! \uCE5C\uD574\uBCF4\uC774\uB294
       \uB290\uB08C \uB0B4\uB824\uACE0 \uC5B4\uAE68\uC5D0 \uC190 \uC62C\uB838\uB294\uB370..
       \uAD1C\uCC2E\uC544\uC694..? "
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\u3134..\uB124.! \uAD1C\uCC2E\uC544\uC694!! (\uB450\uADFC\uB450\uADFC)"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
@@ -560,8 +560,8 @@ MonoBehaviour:
     dialogue: "\u314B\u314B \uADF8\uB807\uB2E4\uBA74 \uB2E4\uD589\uC774\uB124\uC694!
       \uC544 \uB9DE\uB2E4, \uBC9A\uAF43\uCD95\uC81C\uC5D0\uC11C \uACF5\uC5F0\uB3C4
       \uD55C\uB2E4\uB294\uB370 \uBCF4\uB7EC\uAC08\uAE4C\uC694?"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uC88B\uC544\uC694!"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
