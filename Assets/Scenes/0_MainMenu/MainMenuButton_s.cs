@@ -19,7 +19,7 @@ public class MainMenuButton_s : MonoBehaviour
 
     public void Start_B_P()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void Exit_B_P()
     {
