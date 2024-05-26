@@ -9,15 +9,17 @@ public class Loading : MonoBehaviour
     public TMP_Text beforeDay;
     public TMP_Text nextDay;
 
+    public MainMenu_s MainMenu_s;
+
     private float waittime = 3f;
     private float timer = 0;
 
-    [SerializeField] public string BeforeDay;
-    [SerializeField] public string NextDay;
+    /*[SerializeField] public string BeforeDay;
+    [SerializeField] public string NextDay;*/
     void Start()
     {
-        beforeDay.text = BeforeDay;
-        nextDay.text = NextDay;
+        beforeDay.text = MainMenu_s.beforedays;
+        nextDay.text = MainMenu_s.nextdays;
     }
 
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class Loading : MonoBehaviour
 
         if (timer > waittime)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(MainMenu_s.nextscene);
         }
     }
 }

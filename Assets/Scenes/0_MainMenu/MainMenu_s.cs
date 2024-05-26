@@ -5,16 +5,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenuButton_s : MonoBehaviour
+public class MainMenu_s : MonoBehaviour
 {
     // Start is called before the first frame update
 
     public Button Start_B, Exit_B;
+    public static string beforedays;
+    public static string nextdays;
+    public static int nextscene;
 
     void Start()
     {
         //Start_B.onClick.AddListener(Start_B_P);
         //Exit_B.onClick.AddListener(Exit_B_P);
+        beforedays = "";
+        nextdays = "";
     }
 
     public void Start_B_P()
