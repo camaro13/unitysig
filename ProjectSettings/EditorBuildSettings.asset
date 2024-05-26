@@ -15,26 +15,17 @@ EditorBuildSettings:
     path: Assets/Scenes/1_InfoMenu/InfoMenu.unity
     guid: c6babc92c519a9240a426f0a18b1ac13
   - enabled: 1
+    path: Assets/Scenes/2_Notice/Notice.unity
+    guid: 4fae2f2a02c7ac247a7e164b946a42ec
+  - enabled: 1
     path: Assets/Scenes/3_February/2_17/217_1/S_217_1.unity
     guid: 68738a99ad24c854fb029749cf056d21
   - enabled: 1
-    path: Assets/Scenes/3_February/2_17/217_2_Dormitory/S_217_2.unity
-    guid: 4ee2f98e86f42014696b387b16035f0a
-  - enabled: 0
-    path: Assets/Scenes/3_February/2_17/217_2_Dormitory/S_217_2_Dormitory.unity
-    guid: b26ce8eb30b4e194cbac8c0ba60d5182
-  - enabled: 1
-    path: Assets/Scenes/3_February/2_17/217_3/S_217_3.unity
-    guid: a52e61295f281c54f9cf68bc6135ccbc
+    path: Assets/Scenes/Loading/Loading.unity
+    guid: 6ea64b63e69e1274b89cf88823b42440
   - enabled: 1
     path: Assets/Scenes/3_February/2_19/219_1/S_219_1.unity
     guid: 09fb91fa24d1e2f4fbedda40f35f0546
-  - enabled: 1
-    path: Assets/Scenes/3_February/2_19/219_2_MiniGame/MG_DropBox/Game/MG_DropBox.unity
-    guid: 7b66ac10600ed594fadca035ad196941
-  - enabled: 1
-    path: Assets/Scenes/MG_MAZE/Gmae/MG_MAZE.unity
-    guid: 6d30d96e6ed597b468a8ad2bcb47866a
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ca166d7a845f47248952623fc4db1ee3, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6169ac19db3557a438aed3e2b2cb4ecc, type: 2}
