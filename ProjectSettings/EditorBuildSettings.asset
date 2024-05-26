@@ -45,8 +45,14 @@ EditorBuildSettings:
     path: Assets/Scenes/3_February/2_19/219_2_MiniGame/MG_DropBox/Ending/Fail.unity
     guid: cc19d554698793c469e6d3e6d1000bcc
   - enabled: 1
+    path: Assets/Scenes/Loading 1/Loading1.unity
+    guid: 1d74c31376e70d54dacb0d43fa764ca4
+  - enabled: 1
     path: Assets/Scenes/3_February/2_22/222_1/S_222_1.unity
     guid: 62ad055ae5e9cf746955c5f70ba6e6e0
+  - enabled: 1
+    path: Assets/Scenes/Loading 2/Loading2.unity
+    guid: 694aa6ef06fb0c042a73da8cf9010f08
   - enabled: 1
     path: Assets/Scenes/4_March/3_02/302_1/S_302_1.unity
     guid: b312dd5328b1db848806f7b139970e91
@@ -57,6 +63,9 @@ EditorBuildSettings:
     path: Assets/Scenes/4_March/3_02/302_3/S_302_3.unity
     guid: 907f92bafde98fb40b548b9356bda618
   - enabled: 1
+    path: Assets/Scenes/Loading 3/Loading3.unity
+    guid: b5df4db8e0a7b764ab828b2c23ba6b27
+  - enabled: 1
     path: Assets/Scenes/4_March/3_05/305_1/S_305_1.unity
     guid: 480e6d9ffea9bea44b1a41002a434159
   - enabled: 1
@@ -66,17 +75,26 @@ EditorBuildSettings:
     path: Assets/Scenes/4_March/3_05/305_3/S_305_3.unity
     guid: 6968068760e03b544a551c21c4808ef4
   - enabled: 1
+    path: Assets/Scenes/Loading 4/Loading4.unity
+    guid: f964c2926ce58324386197a8987befbb
+  - enabled: 1
     path: Assets/Scenes/4_March/3_16/316_1/S_316_1.unity
     guid: 3c042ec98a541e840bbbe2c632222f55
   - enabled: 1
     path: Assets/Scenes/4_March/3_16/316_2/S_316_2.unity
     guid: 88da3afdb45b74147b413edf7915fddd
   - enabled: 1
+    path: Assets/Scenes/Loading 5/Loading5.unity
+    guid: 940280713561ecc46b77fab9d7f90cd8
+  - enabled: 1
     path: Assets/Scenes/4_March/3_22/322_1/S_322_1.unity
     guid: 63193a93363b56245b9d37f9ad546c75
   - enabled: 1
     path: Assets/Scenes/4_March/3_22/322_2/S_322_2.unity
     guid: 2ab1236e193b6c6459e44ecf65b498b2
+  - enabled: 1
+    path: Assets/Scenes/Loading 6/Loading6.unity
+    guid: e0ed69a8cc2696b448a7e7759a5d3ea5
   - enabled: 1
     path: Assets/Scenes/4_March/3_29/329_1/S_329_1.unity
     guid: ae3ddee67983cae4bb32432b0b95abb5
@@ -96,6 +114,9 @@ EditorBuildSettings:
     path: Assets/Scenes/4_March/3_29/329_3/S_329_3.unity
     guid: b7726ce973f763d43b63e602da816fce
   - enabled: 1
+    path: Assets/Scenes/Loading 7/Loading7.unity
+    guid: 8e67556872b75fc4d8d08d892e71047e
+  - enabled: 1
     path: Assets/Scenes/5_April/4_05/405_1/S_405_1.unity
     guid: 0ed8405a85c1bb740b0f7a5ad9b6ca51
   - enabled: 1
@@ -105,8 +126,14 @@ EditorBuildSettings:
     path: Assets/Scenes/5_April/4_05/405_3/S_405_3.unity
     guid: a0052bef6a53d50478b67465195b9f2d
   - enabled: 1
+    path: Assets/Scenes/Loading 8/Loading8.unity
+    guid: a0f2f1d978778984fafba7703ded91a7
+  - enabled: 1
     path: Assets/Scenes/5_April/4_14/414_1/S_414_1.unity
     guid: ea79e072fe625164aaf84d5bdf3b5106
+  - enabled: 1
+    path: Assets/Scenes/Loading 9/Loading9.unity
+    guid: 88f91b9d4e21ac24ebbed9b3fc84a305
   - enabled: 1
     path: Assets/Scenes/5_April/4_19-23/41923_1/S_41923_1.unity
     guid: d6ae0265ef9e0e04da78bf14520b539f
@@ -114,8 +141,14 @@ EditorBuildSettings:
     path: Assets/Scenes/5_April/4_19-23/41923_2/S_41923_2.unity
     guid: 6cce8044419a841408a9eccc1eb8223a
   - enabled: 1
+    path: Assets/Scenes/Loading 10/Loading10.unity
+    guid: 14063814ec954b245833fb3ef14a9f92
+  - enabled: 1
     path: Assets/Scenes/5_April/4_26-30_Midterm/42630_2/S_42630_2.unity
     guid: 887ac3fd98a3aff45a12d8a7bff80c64
+  - enabled: 1
+    path: Assets/Scenes/Loading 11/Loading11.unity
+    guid: 07608c0babcb23347846774a93be54b8
   - enabled: 1
     path: Assets/Scenes/6_May/5_05-08/50508_1/S_50508_1.unity
     guid: c298945ffb232ac42b2e6b4ffa76dada
@@ -126,26 +159,47 @@ EditorBuildSettings:
     path: Assets/Scenes/6_May/5_05-08/50508_3/S_50508_3.unity
     guid: fc485c8ab00a8704da3f4b0aaa0b3a34
   - enabled: 1
+    path: Assets/Scenes/Loading 12/Loading12.unity
+    guid: ec083e4797a286f4da3181b0123dc4e2
+  - enabled: 1
     path: Assets/Scenes/6_May/5_10/510_1/S_510_1.unity
     guid: eb743b4066d30be4d943411b34d03878
   - enabled: 1
     path: Assets/Scenes/6_May/5_10/510_2/S_510_2.unity
     guid: a605a358ac7bc1648a3b832108e51747
   - enabled: 1
+    path: Assets/Scenes/Loading 13/Loading13.unity
+    guid: 561f9b70d75f5f84eba26937c8bcd976
+  - enabled: 1
     path: Assets/Scenes/6_May/5_13/513_1/S_513_1.unity
     guid: b4836fcd2ac955a45844985d61f22adc
+  - enabled: 1
+    path: Assets/Scenes/Loading 14/Loading14.unity
+    guid: 5f7c301b651a7244d84c27c585d8023a
   - enabled: 1
     path: Assets/Scenes/6_May/5_31/531_1/S_531_1.unity
     guid: 7fe2bd92de084cb4285e07b35adc132f
   - enabled: 1
+    path: Assets/Scenes/Loading 15/Loading15.unity
+    guid: f8bdbedb17e396049b5bcfe4b8b225da
+  - enabled: 1
     path: Assets/Scenes/7_June/6_01-04/60104_1/S_60104_1.unity
     guid: 8b43dd1ac430e784d946932d1bc92e8f
+  - enabled: 1
+    path: Assets/Scenes/Loading 16/Loading16.unity
+    guid: d328481f0c30b4249a6e1f78523a0f7f
   - enabled: 1
     path: Assets/Scenes/7_June/6_06/606_1/S_606_1.unity
     guid: 608e5f2d782e86340b7444ee5195b2bd
   - enabled: 1
+    path: Assets/Scenes/Loading 17/Loading17.unity
+    guid: f10b715d4ecd0f64cb0c70759bb448a8
+  - enabled: 1
     path: Assets/Scenes/7_June/6_07-11/60711_1/S_60711_1.unity
     guid: acb52872b77606c459434fb11a39afc3
+  - enabled: 1
+    path: Assets/Scenes/Loading 18/Loading18.unity
+    guid: 2cf269d1ad47b794c9c793ed457cdf1a
   - enabled: 1
     path: Assets/Scenes/7_June/6_14/614_1/S_614_1.unity
     guid: c35821eb7e5428c45b6309dddf46badc
