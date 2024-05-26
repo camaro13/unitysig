@@ -520,8 +520,8 @@ MonoBehaviour:
     dialogue: "\uC624\uB298 \uC2E0\uC785\uC0DD \uD658\uC601\uD68C \uCC38\uC11D\uD574\uC8FC\uC154\uC11C
       \uAC10\uC0AC\uD569\uB2C8\uB2E4. \uB2E4\uB4E4 \uD3B8\uD558\uAC8C \uC990\uAE30\uB2E4
       \uADC0\uAC00\uD558\uC138\uC694!"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -4640275436308055520, guid: e73085a325af29542960c7294c3ee73a, type: 3}
+    cg_F: {fileID: -4640275436308055520, guid: e73085a325af29542960c7294c3ee73a, type: 3}
   - name: me
     dialogue: "(\uC624\uB298\uC774\uC57C \uB9D0\uB85C \uCE5C\uAD6C\uB97C \uC0AC\uADC0\uC5B4
       \uBCF4\uACA0\uC5B4!)"

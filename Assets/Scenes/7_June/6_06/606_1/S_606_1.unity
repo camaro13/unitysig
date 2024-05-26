@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4884772650086931124, guid: 1bb6fc589d814e049b28e4d4885cc5f0, type: 3}
+  m_Sprite: {fileID: -8217494790627095148, guid: aa2bb9066809b3b4aaff53cc7fc1f50c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -515,8 +515,8 @@ MonoBehaviour:
   - name: "\uC120\uBC30"
     dialogue: "[00\uC544 \uD560 \uB9D0\uC774 \uC788\uB294\uB370 \uC7A0\uC2DC \uC2DC\uAC04
       \uB3FC?]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uC5B4? \uC120\uBC30.. \uBB34\uC2A8 \uC77C \uC778\uAC70\uC9C0?"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
@@ -529,8 +529,8 @@ MonoBehaviour:
   - name: "\uC120\uBC30"
     dialogue: "[\uB0B4\uAC00 \uC0DD\uAC01\uC744 \uD574\uBD24\uB294\uB370\u2026 \uC6B0\uB9AC\uB294
       \uC798 \uC548 \uB9DE\uB294 \uAC83 \uAC19\uC544 \uC6B0\uB9AC \uADF8\uB9CC \uB9CC\uB098\uC790]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "[..\uAC11\uC790\uAE30 \uBB34\uC2A8 \uB9D0\uC774\uC5D0\uC694?]"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
@@ -540,8 +540,8 @@ MonoBehaviour:
       \uB354 \uC774\uC0C1 \uC6B0\uB9AC\uAC00 \uC5F0\uC560\uD558\uB294 \uAC83 \uAC19\uC9C0
       \uC54A\uC544.  ..\uADF8\uB0E5 \uC88B\uC740 \uC120\uD6C4\uBC30\uB85C \uB0A8\uC790.
       \uADF8\uB7FC \uC798 \uC9C0\uB0B4..]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "[ \uC544..\uC8C4\uC1A1\uD588\uC5B4\uC694. \uC120\uBC30\uB3C4 \uC798\uC9C0\uB0B4\uC138\uC694.]"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}

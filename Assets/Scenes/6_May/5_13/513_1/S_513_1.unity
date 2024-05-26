@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4884772650086931124, guid: 1bb6fc589d814e049b28e4d4885cc5f0, type: 3}
+  m_Sprite: {fileID: -8217494790627095148, guid: aa2bb9066809b3b4aaff53cc7fc1f50c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -525,8 +525,8 @@ MonoBehaviour:
   - name: "\uC120\uBC30"
     dialogue: "[\uC548 \uBC14\uC058\uBA74 \uC6B0\uB9AC  \uC624\uB298 \uC7A0\uC2DC
       \uB9CC\uB0A0\uB798?]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uC544.. \uB098 \uC624\uB298 \uACFC\uC81C \uD574\uC57C\uB418\uB294\uB370..
       \uC5B4\uB5A1\uD558\uC9C0? .. \uC5B4\uCA54 \uC218 \uC5C6\uB2E4. \uAC70\uC808\uD574\uC57C\uACA0\uB2E4."
@@ -539,8 +539,8 @@ MonoBehaviour:
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: "\uC120\uBC30"
     dialogue: "[\uC544.. \uC624\uB298 \uC9C4\uC9DC \uC548 \uB3FC?]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "[ \uB124.. \uC8C4\uC1A1\uD574\uC694. ]"
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
@@ -548,8 +548,8 @@ MonoBehaviour:
   - name: "\uC120\uBC30"
     dialogue: "[\uC54C\uACA0\uC5B4. \uB2E4\uC74C\uC5D0 \uC2DC\uAC04 \uB418\uBA74
       \uAC19\uC774 \uB180\uC790!]"
-    cg_M: {fileID: 0}
-    cg_F: {fileID: 0}
+    cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
+    cg_F: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
   - name: me
     dialogue: "\uC544.. \uB370\uC774\uD2B8 \uD558\uACE0 \uC2F6\uC5C8\uB294\uB370
       \uC544\uC27D\uB2E4. \uC5B4\uCA54 \uC218 \uC5C6\uC9C0 \uC77C\uB2E8 \uACFC\uC81C\uBD80\uD130
