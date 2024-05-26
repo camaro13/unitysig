@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\uC785\uB825\uCC3D_0": -5573623781076329263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
