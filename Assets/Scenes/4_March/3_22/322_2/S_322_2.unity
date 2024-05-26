@@ -511,6 +511,7 @@ MonoBehaviour:
   sprite_StandingCG: {fileID: 677661805}
   txt_Name: {fileID: 1805276797}
   txt_Dialogue: {fileID: 1396447984}
+  MainMenu_s: {fileID: 0}
   dialogue:
   - name: me
     dialogue: "\uADF8\uB7EC\uACE0 \uBCF4\uB2C8 \uAE30\uC219\uC0AC \uC785\uAD6C \uAC8C\uC2DC\uD310\uC5D0
@@ -690,8 +691,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: S_329_1, Assembly-CSharp
+      - m_Target: {fileID: 514959165}
+        m_TargetAssemblyTypeName: S_322_2, Assembly-CSharp
         m_MethodName: NextDialogue
         m_Mode: 1
         m_Arguments:
