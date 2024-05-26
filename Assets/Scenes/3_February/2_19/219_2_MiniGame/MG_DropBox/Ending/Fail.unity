@@ -425,11 +425,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 514959161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baaeaca652100ab4cb77c047de53a466, type: 3}
+  m_Script: {fileID: 11500000, guid: dbdaedd97c386cd4b83f40f5f6333091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Start_B: {fileID: 0}
-  Exit_B: {fileID: 0}
+  MainMenu_s: {fileID: 0}
 --- !u!1 &951578293
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,7 +922,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2121158125}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 514959165}
+        m_TargetAssemblyTypeName: Fail_s, Assembly-CSharp
+        m_MethodName: Next_S
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2121158125
 MonoBehaviour:
   m_ObjectHideFlags: 0

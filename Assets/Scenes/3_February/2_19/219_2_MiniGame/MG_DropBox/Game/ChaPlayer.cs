@@ -31,7 +31,7 @@ public class ChaPlayer : MonoBehaviour
 
     private void Awake()
     {
-        time = 45f; 
+        time = 30f; 
         Application.targetFrameRate = 60;
     }
 

@@ -11,7 +11,7 @@ public class Loading : MonoBehaviour
 
     public MainMenu_s MainMenu_s;
 
-    private float waittime = 3f;
+    public float waittime = 3f;
     private float timer = 0;
 
     /*[SerializeField] public string BeforeDay;
@@ -26,7 +26,7 @@ public class Loading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.5f, 0, 0);
+        transform.Translate(50f, 0, 0);
 
         timer += Time.deltaTime;
 
