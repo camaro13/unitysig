@@ -22,6 +22,8 @@ public class S_614_1 : MonoBehaviour
     [SerializeField] public TMP_Text txt_Name;
     [SerializeField] public TMP_Text txt_Dialogue;
 
+    public MainMenu_s MainMenu_s;
+
     private string savePath;
     private int count = 0;
     private bool isman;
@@ -33,6 +35,7 @@ public class S_614_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        MainMenu_s.scenenumber++;
         savePath = Application.persistentDataPath + "/save.txt";
         StreamReader sr = new StreamReader(savePath);
         gabage = sr.ReadLine();
@@ -70,7 +73,7 @@ public class S_614_1 : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(MainMenu_s.scenenumber);
         }
     }
 }
