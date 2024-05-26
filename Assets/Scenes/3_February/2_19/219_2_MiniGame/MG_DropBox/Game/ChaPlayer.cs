@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class ChaPlayer : MonoBehaviour
 {
     public InfoMenu_S InfoMenu_S;
+    public MainMenu_s MainMenu_s;
 
     private Rigidbody2D rb;
     private bool moveLeft = false;
@@ -23,6 +24,7 @@ public class ChaPlayer : MonoBehaviour
 
     void Start()
     {
+        MainMenu_s.scenenumber++;
         rb = GetComponent<Rigidbody2D>();
         ScoreTXT.text = "Score : 0";
     }
@@ -65,12 +67,13 @@ public class ChaPlayer : MonoBehaviour
             if (score > 15)
             {
                 InfoMenu_S.C_score += 5;
-                SceneManager.LoadScene(0);//성공
+                SceneManager.LoadScene(MainMenu_s.scenenumber);//성공
             }
             else
             {
                 InfoMenu_S.C_score -= 5;
-                SceneManager.LoadScene(0);//실패
+                MainMenu_s.scenenumber++;
+                SceneManager.LoadScene(MainMenu_s.scenenumber);//실패
             }
         }
         timeText.text = Mathf.Ceil(time).ToString();

@@ -14,6 +14,9 @@ public class InfoMenu_S : MonoBehaviour
     [SerializeField] public TMP_InputField input_major;
     [SerializeField] public Toggle toggle_gender_man;
     [SerializeField] public Toggle toggle_gender_woman;
+
+    public MainMenu_s MainMenu_s;
+
     private string savePath;
     public static int C_score = 50;
     public static bool toggle_gender_man_B;
@@ -22,6 +25,8 @@ public class InfoMenu_S : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        MainMenu_s.scenenumber++;
+
         savePath = Application.persistentDataPath + "/save.txt";
         toggle_gender_man.onValueChanged.AddListener(toggle_man);
         toggle_gender_woman.onValueChanged.AddListener(toggle_woman);
@@ -57,7 +62,7 @@ public class InfoMenu_S : MonoBehaviour
 
     public void Back_B_P()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(MainMenu_s.scenenumber);
     }
 
 }

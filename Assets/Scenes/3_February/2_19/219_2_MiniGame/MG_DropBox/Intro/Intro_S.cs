@@ -1,23 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
-public class S_217_2 : MonoBehaviour
+public class Intro_S : MonoBehaviour
 {
-    public Button Next_B;
-
     public MainMenu_s MainMenu_s;
-
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         MainMenu_s.scenenumber++;
     }
 
-    public void Next_B_P()
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void NextS()
     {
         SceneManager.LoadScene(MainMenu_s.scenenumber);
-    }    
+    }
 }

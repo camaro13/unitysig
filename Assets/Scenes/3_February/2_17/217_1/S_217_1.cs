@@ -35,10 +35,7 @@ public class S_217_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MainMenu_s.beforedays = "2월 17일";
-        MainMenu_s.nextdays = "2월 19일";
-        MainMenu_s.nextscene = 5;
-
+        MainMenu_s.scenenumber++;
         savePath = Application.persistentDataPath + "/save.txt";
         StreamReader sr = new StreamReader(savePath);
         gabage = sr.ReadLine();
@@ -76,7 +73,7 @@ public class S_217_1 : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(MainMenu_s.scenenumber);
         }
     }
 }

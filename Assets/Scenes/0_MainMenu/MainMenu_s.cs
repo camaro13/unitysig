@@ -13,6 +13,7 @@ public class MainMenu_s : MonoBehaviour
     public static string beforedays;
     public static string nextdays;
     public static int nextscene;
+    public static int scenenumber = 0;
 
     void Start()
     {
