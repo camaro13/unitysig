@@ -516,6 +516,10 @@ MonoBehaviour:
     dialogue: "(30\uBD84 \uB3D9\uC548 \uC0B0\uCC45 \uC911..)"
     cg_M: {fileID: 0}
     cg_F: {fileID: 0}
+  - name: "(\uC120\uBC30\uC640 \uB3D9\uC2DC\uC5D0)"
+    dialogue: "\u3148...\uC800\uAE30..!!"
+    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
+    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: "\uC120\uBC30"
     dialogue: "\uC5C7.. \uB108 \uBA3C\uC800 \uB9D0\uD574!"
     cg_M: {fileID: -8233702899700285824, guid: 2b83a675078c38443a6dd885b1d88505, type: 3}
