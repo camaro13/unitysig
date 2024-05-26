@@ -18,6 +18,7 @@ public class Loading : MonoBehaviour
     [SerializeField] public string NextDay;*/
     void Start()
     {
+        MainMenu_s.scenenumber++;
         beforeDay.text = MainMenu_s.beforedays;
         nextDay.text = MainMenu_s.nextdays;
     }
@@ -31,7 +32,7 @@ public class Loading : MonoBehaviour
 
         if (timer > waittime)
         {
-            SceneManager.LoadScene(MainMenu_s.nextscene);
+            SceneManager.LoadScene(MainMenu_s.scenenumber);
         }
     }
 }
