@@ -505,7 +505,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 514959161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1af56a7a3a89d2b4e872866f5d3d6a53, type: 3}
+  m_Script: {fileID: 11500000, guid: e70ce1f474efcce4cb1b6a858192cf6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_StandingCG: {fileID: 677661805}
@@ -513,37 +513,17 @@ MonoBehaviour:
   txt_Dialogue: {fileID: 1396447984}
   dialogue:
   - name: me
-    dialogue: "\uC640 ! \uD569\uACA9\uC774\uC57C! \uC774\uC81C \uC9D0 \uC2F8\uBA74
-      \uB418\uACA0\uB2E4."
+    dialogue: "\uC5EC\uAE30\uAC00 \uB300\uAD6C\uB300\uD559\uAD50 \uAE30\uC219\uC0AC
+      \uBC29\uC774\uAD6C\uB098! "
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: me
-    dialogue: "\uD734 \uAE30\uC219\uC0AC \uC2E0\uCCAD\uC744 \uBB34\uC0AC\uD788 \uB05D\uB0C8\uC5B4!!
-      \uACB0\uACFC \uB098\uC62C \uB54C\uAE4C\uC9C0 \uAE30\uB2E4\uB824\uBCF4\uC790."
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: 
-    dialogue: "(n\uC2DC\uAC04 \uD6C4..)"
+    dialogue: "(\uB8F8\uBA54 \uC2E0\uCCAD \uC548\uD588\uB294\uB370 \uB204\uAD70\uC9C0
+      \uAD81\uAE08\uD558\uB2E4. \uC544\uC9C1 \uC548 \uC654\uB098..? ) "
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
   - name: me
-    dialogue: "\uC804\uAE30\uC7A5\uD310, \uBBF8\uB2C8\uB0C9\uC7A5\uACE0 \uC774\uB7F0
-      \uD654\uC7AC\uC704\uD5D8\uC774 \uC788\uB294 \uBB3C\uAC74\uB4E4\uC740 \uB4E4\uACE0
-      \uAC00\uBA74 \uC548 \uB418\uB2C8\uAE50 \uC637\uC774\uB791 \uC0DD\uD544\uD488
-      \uC870\uAE08 \uCC59\uACA8\uC57C\uACA0\uB2E4~"
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: me
-    dialogue: "\uD734... \uB2E4 \uCC59\uACBC\uB2E4."
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: me
-    dialogue: "\uB0B4\uC77C \uD0DD\uBC30\uB85C \uBCF4\uB0B4\uBA74 \uB418\uACA0\uC9C0?"
-    cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
-    cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
-  - name: me
-    dialogue: "\uC5BC\uB978 2\uC6D4 19\uC77C\uC774 \uB410\uC73C\uBA74 \uC88B\uACA0\uB2E4!
-      \uAE30\uB300\uB3FC~ ^^"
+    dialogue: "\uC77C\uB2E8 \uC9D0\uBD80\uD130 \uCC3E\uC73C\uB7EC \uAC00\uC790. "
     cg_M: {fileID: 7019595346483844752, guid: 7b1eabe0565415e49b3ab84c10bb59cd, type: 3}
     cg_F: {fileID: 3814004937831767862, guid: e63155e86d540d548a58138b1a6e1208, type: 3}
 --- !u!1 &677661804
@@ -714,7 +694,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 514959165}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: S_217_3, Assembly-CSharp
         m_MethodName: NextDialogue
         m_Mode: 1
