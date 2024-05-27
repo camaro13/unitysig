@@ -40,7 +40,7 @@ public class InfoMenu_S : MonoBehaviour
         writer.WriteLine(toggle_gender_man_B);
         writer.WriteLine(toggle_gender_woman_B);
         writer.Close();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(MainMenu_s.scenenumber);
         Debug.Log("Data Saved to : " + savePath);
     }
 
@@ -62,7 +62,7 @@ public class InfoMenu_S : MonoBehaviour
 
     public void Back_B_P()
     {
-        SceneManager.LoadScene(MainMenu_s.scenenumber);
+        SceneManager.LoadScene(0);
     }
 
 }

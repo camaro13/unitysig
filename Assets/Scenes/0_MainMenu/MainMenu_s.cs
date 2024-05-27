@@ -13,7 +13,7 @@ public class MainMenu_s : MonoBehaviour
     public static string beforedays;
     public static string nextdays;
     public static int nextscene;
-    public static int scenenumber = 0;
+    public static int scenenumber = 1;
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class MainMenu_s : MonoBehaviour
 
     public void Start_B_P()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(scenenumber);
     }
     public void Exit_B_P()
     {

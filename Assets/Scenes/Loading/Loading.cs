@@ -26,7 +26,7 @@ public class Loading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(50f, 0, 0);
+        transform.Translate(30f, 0, 0);
 
         timer += Time.deltaTime;
 

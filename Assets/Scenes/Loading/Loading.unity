@@ -379,8 +379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beforeDay: {fileID: 298032146}
   nextDay: {fileID: 1583870471}
-  BeforeDay: "2\uC6D4 17\uC77C"
-  NextDay: "2\uC6D4 19\uC77C"
+  MainMenu_s: {fileID: 0}
+  waittime: 3
 --- !u!212 &357977340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -513,6 +513,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &698130628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698130630}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &698130630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698130628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 957.76794, y: 504.16226, z: -8.738725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -852,3 +883,4 @@ SceneRoots:
   - {fileID: 514959164}
   - {fileID: 1352243845}
   - {fileID: 357977341}
+  - {fileID: 698130630}
