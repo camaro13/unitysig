@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef5150c506a33e48ad60ac4b7905c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite_StandingCG: {fileID: 0}
+  sprite_StandingCG: {fileID: 677661805}
   txt_Name: {fileID: 1805276797}
   txt_Dialogue: {fileID: 1396447984}
   MainMenu_s: {fileID: 0}
