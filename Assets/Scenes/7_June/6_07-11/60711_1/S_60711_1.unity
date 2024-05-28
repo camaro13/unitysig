@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4884772650086931124, guid: 1bb6fc589d814e049b28e4d4885cc5f0, type: 3}
+  m_Sprite: {fileID: 4207974951132892310, guid: 5be39ed066c1dcb4ba8cfdf2bc2227e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -511,6 +511,7 @@ MonoBehaviour:
   sprite_StandingCG: {fileID: 677661805}
   txt_Name: {fileID: 1805276797}
   txt_Dialogue: {fileID: 1396447984}
+  MainMenu_s: {fileID: 0}
   dialogue:
   - name: me
     dialogue: "\uD53C\uACE4\uD558\uB2E4..  \u2026 \uC5C7 \uC624\uB298\uB3C4 \uAC04\uC2DD\uD589\uC0AC\uB97C
