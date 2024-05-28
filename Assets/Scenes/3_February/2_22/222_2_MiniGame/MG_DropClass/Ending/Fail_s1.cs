@@ -10,8 +10,8 @@ public class Fail_s1 : MonoBehaviour
     void Start()
     {
         MainMenu_s.scenenumber++;
-        MainMenu_s.beforedays = "2岿 19老";
-        MainMenu_s.nextdays = "2岿 22老";
+        MainMenu_s.beforedays = "2岿 22老";
+        MainMenu_s.nextdays = "3岿 02老";
     }
 
     // Update is called once per frame

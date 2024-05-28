@@ -51,6 +51,18 @@ EditorBuildSettings:
     path: Assets/Scenes/3_February/2_22/222_1/S_222_1.unity
     guid: 62ad055ae5e9cf746955c5f70ba6e6e0
   - enabled: 1
+    path: Assets/Scenes/3_February/2_22/222_2_MiniGame/MG_DropClass/Intro/Intro_DC.unity
+    guid: 989e16a9b7048d247b6934d091810901
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_22/222_2_MiniGame/MG_DropClass/Game/MG_DropClass.unity
+    guid: 064c420fdaa570f448b17aaf2140bbff
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_22/222_2_MiniGame/MG_DropClass/Ending/Succes_DC.unity
+    guid: f6085421bd40d8440b3f7bb5ba70d360
+  - enabled: 1
+    path: Assets/Scenes/3_February/2_22/222_2_MiniGame/MG_DropClass/Ending/Fail_DC.unity
+    guid: 74026827a4d7eca4babe1f31afe8cfa0
+  - enabled: 1
     path: Assets/Scenes/Loading 2/Loading2.unity
     guid: 694aa6ef06fb0c042a73da8cf9010f08
   - enabled: 1
