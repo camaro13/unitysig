@@ -302,9 +302,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ed1d8aa234cfd049a7f5ee788201be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
+  time: 0.7
   Obstacles: {fileID: 4849398981163646191, guid: f795ccab707687b489c7e627c181b652, type: 3}
   Boxes: {fileID: 4356761197901540082, guid: d9fb809d0a9ccc8429275c7411f908d6, type: 3}
+  Boxes1: {fileID: 4356761197901540082, guid: f86247f3bd47b7447a9032e4c5043a6e, type: 3}
 --- !u!1 &1093534925
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,9 +631,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ed1d8aa234cfd049a7f5ee788201be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
-  Obstacles: {fileID: 7954653879502123583, guid: 5ac83b3bddae4954db41b8b61de915ca, type: 3}
-  Boxes: {fileID: 3334007748186102631, guid: bfbc2e95aed3ee9488a2a04050cac0dd, type: 3}
+  time: 0.7
+  Obstacles: {fileID: 4849398981163646191, guid: f795ccab707687b489c7e627c181b652, type: 3}
+  Boxes: {fileID: 4356761197901540082, guid: d9fb809d0a9ccc8429275c7411f908d6, type: 3}
+  Boxes1: {fileID: 4356761197901540082, guid: f86247f3bd47b7447a9032e4c5043a6e, type: 3}
 --- !u!1 &1570360343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,6 +1435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InfoMenu_S: {fileID: 0}
+  MainMenu_s: {fileID: 0}
   speed: 700
   score: 0
   ScoreTXT: {fileID: 1978897427}

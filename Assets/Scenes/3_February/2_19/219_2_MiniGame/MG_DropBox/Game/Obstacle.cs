@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour
     public float time = 0.7f;
     public GameObject Obstacles;
     public GameObject Boxes;
+    public GameObject Boxes1;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,7 @@ public class Obstacle : MonoBehaviour
     {
         Instantiate(Obstacles, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
         Instantiate(Boxes, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
-        Instantiate(Obstacles, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
-        Instantiate(Boxes, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
+        Instantiate(Boxes1, new Vector3(Random.Range(0, 1900), 1300, 0), Quaternion.identity);
     }
 
     
